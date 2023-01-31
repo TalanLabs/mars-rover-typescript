@@ -5,19 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b59bc813-1eee-4553-8ee1-a379f053070a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/go/rover.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/rover_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/typescript/jest.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/typescript/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/typescript/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Rover.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/typescript/src/Rover.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Rover.ts" beforeDir="false" afterPath="$PROJECT_DIR$/typescript/src/Rover.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mars-rover.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mars-rover.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file:///snap/go/10030" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -40,13 +45,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "/home/stephane-thurneyssen/IdeaProjects/mars-rover-typescript/go",
     "nodejs.jest.jest_package": "/home/stephane-thurneyssen/IdeaProjects/mars-rover-typescript/typescript/node_modules/jest",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
@@ -57,6 +66,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/go" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/typescript" />
     </key>
@@ -128,7 +140,8 @@
       <updated>1617098173893</updated>
       <workItem from="1675066032311" duration="46000" />
       <workItem from="1675066092113" duration="797000" />
-      <workItem from="1675077089210" duration="15145000" />
+      <workItem from="1675077089210" duration="15395000" />
+      <workItem from="1675150605844" duration="2426000" />
     </task>
     <servers />
   </component>

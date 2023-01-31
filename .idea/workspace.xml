@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b59bc813-1eee-4553-8ee1-a379f053070a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Rover.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Rover.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/typescript/jest.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/typescript/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/typescript/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rover.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/typescript/src/Rover.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rover.ts" beforeDir="false" afterPath="$PROJECT_DIR$/typescript/src/Rover.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +21,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="k3sxsy05" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1qTKWVX6FEvIRzwYWdbC7VubTTO" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -23,15 +38,85 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="go.import.settings.migrated" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
-    <property name="vue.rearranger.settings.migration" value="true" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "nodejs.jest.jest_package": "/home/stephane-thurneyssen/IdeaProjects/mars-rover-typescript/typescript/node_modules/jest",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "settings.typescriptcompiler",
+    "ts.external.directory.path": "/home/stephane-thurneyssen/IdeaProjects/mars-rover-typescript/typescript/node_modules/typescript/lib"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/typescript" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jest.test suite.rover should stop if he encounter an obstacle, and send back a report">
+    <configuration name="Initialise a rover with position" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/typescript/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/typescript" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/typescript/src/Rover.spec.ts" />
+      <test-names>
+        <test-name value="Initialise a rover with position" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Rover.spec.ts" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="$USER_HOME$/.asdf/installs/nodejs/16.17.0/bin/node" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/typescript/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/typescript" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/typescript/src/Rover.spec.ts" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test suite.rover should stop if he encounter an obstacle, and send back a report" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="$USER_HOME$/.asdf/shims/node" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/typescript/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/typescript" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/typescript/src/Rover.spec.ts" />
+      <test-names>
+        <test-name value="test suite" />
+        <test-name value="rover should stop if he encounter an obstacle, and send back a report" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="test.ts" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="$USER_HOME$/.asdf/installs/nodejs/16.17.0/bin/node" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/typescript/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/typescript" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/typescript/src/test.ts" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.test suite.rover should stop if he encounter an obstacle, and send back a report" />
+        <item itemvalue="Jest.Rover.spec.ts" />
+        <item itemvalue="Jest.test.ts" />
+        <item itemvalue="Jest.Initialise a rover with position" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -41,6 +126,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1617098173893</updated>
+      <workItem from="1675066032311" duration="46000" />
+      <workItem from="1675066092113" duration="797000" />
+      <workItem from="1675077089210" duration="15145000" />
     </task>
     <servers />
   </component>
@@ -57,6 +145,13 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

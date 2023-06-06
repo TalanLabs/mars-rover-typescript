@@ -1,23 +1,44 @@
-# Your Task
+# Overview
 
-You’re part of the team that explores Mars by sending remotely controlled vehicles to the surface of the planet. 
-Develop an API that translates the commands sent from earth to instructions that are understood by the rover.
+Vous faites partie de l'équipe qui explore Mars en envoyant des véhicules télécommandés à la surface de la planète.
+
+Développer une API qui traduit les commandes envoyées depuis la Terre en instructions comprises par le rover.
 
 ## Requirements
+    Le rover possede une position (x,y) et une direction (N, S, E, W). 
 
-    You are given the initial starting point (x,y) of a rover and the direction (N,S,E,W) it is facing.
-    The rover receives a character array of commands.
-    Implement commands that move the rover forward/backward (f,b).
-    Implement commands that turn the rover left/right (l,r).
-    Implement wrapping at edges. But be careful, planets are spheres. 
-        Connect the x edge to the other x edge, so (1,1) for x-1 to (5,1), but connect vertical edges towards themselves in inverted coordinates, so (1,1) for y-1 connects to (5,1).
-    Implement obstacle detection before each move to a new square. 
-        If a given sequence of commands encounters an obstacle, the rover moves up to the last possible point, aborts the sequence and reports the obstacle.
+    On vous donne le point de départ initial (x,y) d'un rover et la direction (N,S,E,W) à laquelle il fait face.
+
+    Le rover reçoit un tableau de caractères de commandes.
+
+    Il y 4 commandes possible:
+
+    - forward (f): le rover avance dans la direction  à laquelle il fait face.
+    - backward (b): le rover recule dans la direction  à laquelle il fait face.
+    - left (l): le rover tourne à gauche. Le rover change sa direction.
+    - right (r): le rover tourne à droite. Le rover change sa direction.
+
+## Instruction
+
+    - Implémenter les commandes qui déplacent le rover vers l'avant/l'arrière (f,b).
+
+    - Implémentez les commandes qui tournent le rover vers la gauche/droite (l,r).
+
+    - Impémentez le comportement du rover sur les bords de la map.
+
+    > Attention, les planètes sont des sphères.
+    
+    *Par exemple, sur un map de taille 5x5, le rover se trouve en position (1,1). Il avance vers la gauche. Il se retouve en position (5,1).
+    De même pour les bords verrticaux.*
+
+    -  Implementez la détection d'obstacles avant chaque déplacement vers une nouvelle case.
+
+    >  Si une séquence donnée de commandes rencontre un obstacle, le rover se déplace jusqu'au dernier point possible, interrompt la séquence et signale l'obstacle.
 
 # Rules
 
-    Hardcore TDD. No Excuses!
-    Change roles (driver, navigator) after each TDD cycle.
-    No red phases while refactoring.
-    Be careful about edge cases and exceptions. We can not afford to lose a mars rover, just because the developers overlooked a null pointer.
+    Le but du kata est de pratiquer le TDD. 
+    
+    **Pas d' excuses**
+
 
